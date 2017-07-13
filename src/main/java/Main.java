@@ -26,6 +26,9 @@ public class Main {
 
             .get("hello", ctx -> {
               ctx.render("Hello!");
+             })
+            .get("testing", ctx -> {
+              ctx.render("Look at this!");
             })
 
             .get("db", ctx -> {
